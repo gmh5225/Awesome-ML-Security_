@@ -13,18 +13,18 @@
 
   - Confidentiality/privacy ([awesome-ml-privacy-attacks](https://github.com/stratosphereips/awesome-ml-privacy-attacks))
 
-  - - Reconstruction (model inversion; attribute inference; gradient and information leakage) - theft of data
+    - Reconstruction (model inversion; attribute inference; gradient and information leakage) - theft of data
     - Membership inference - reidentification of data
     - Model extraction - theft of model
     - Property inference - leakage of dataset properties
 
   - Availability
 
-  - - [Energy-latency attacks](https://arxiv.org/abs/2006.03463) - denial of service for neural networks 
+    - [Energy-latency attacks](https://arxiv.org/abs/2006.03463) - denial of service for neural networks 
 
   - Integrity 
 
-  - - Backdoors/neural trojans - same as for non-ML systems
+    - Backdoors/neural trojans - same as for non-ML systems
     - Adversarial evasion - perturbation of an input to evade a certain classification or output 
     - Data poisoning and [ordering](https://arxiv.org/abs/2104.09667) - providing malicious data or changing the order of the data flow into an ML model 
     - [Adversarial reprogramming](https://arxiv.org/abs/1806.11146) - repurposing a model for a different task than its original intended purpose 
@@ -33,14 +33,14 @@
 
 - Degraded Model performance (due to bugs)
 
-- - [Robustness Testing of Autonomy Software](https://users.ece.cmu.edu/~koopman/pubs/hutchison18_icse_robustness_testing_autonomy_software.pdf)
+  - [Robustness Testing of Autonomy Software](https://users.ece.cmu.edu/~koopman/pubs/hutchison18_icse_robustness_testing_autonomy_software.pdf)
   - [Can robot navigation bugs be found in simulation? An exploratory study](https://hal.science/hal-01534235/file/PID4832685.pdf)
   - [Bugs can optimize for bad behavior (OpenAI GPT-2)](https://openai.com/research/fine-tuning-gpt-2)
   - [You Only Look Once Run time errors](https://www.york.ac.uk/assuring-autonomy/guidance/body-of-knowledge/implementation/2-3/2-3-3/cross-domain-automotive/)
 
 - AI’s effect on attacks/security elsewhere
 
-- - [Lost at C: A User Study on the Security Implications of Large Language Model Code Assistants](https://arxiv.org/abs/2208.09727)
+  - [Lost at C: A User Study on the Security Implications of Large Language Model Code Assistants](https://arxiv.org/abs/2208.09727)
   - [Examining Zero-Shot Vulnerability Repair with Large Language Models](https://arxiv.org/pdf/2112.02125.pdf) 
   - [Do Users Write More Insecure Code with AI Assistants?](https://arxiv.org/pdf/2211.03622.pdf) 
   - [Learned Systems Security](https://arxiv.org/abs/2212.10318) 
@@ -48,7 +48,7 @@
 
 - ML-Ops and pipeline vulnerabilities and exploits: model assets (data, weights, model)
 
-- - [Facebook’s LLAMA being openly distributed via torrents](https://news.ycombinator.com/item?id=35007978)
+  - [Facebook’s LLAMA being openly distributed via torrents](https://news.ycombinator.com/item?id=35007978)
   - [Summoning Demons: The Pursuit of Exploitable Bugs in Machine Learning](https://arxiv.org/abs/1701.04739) 
   - [DeepPayload: Black-box Backdoor Attack on Deep Learning Models through Neural Payload Injection](https://arxiv.org/abs/2101.06896) 
   - [Weaponizing Machine Learning Models with Ransomware](https://hiddenlayer.com/research/weaponizing-machine-learning-models-with-ransomware/) (and [Machine Learning Threat Roundup](https://hiddenlayer.com/research/machine-learning-threat-roundup/)) 
@@ -79,7 +79,7 @@
 
 - ANSI/UL 4600 Standard for Safety for the Evaluation of Autonomous Products — addresses fully autonomous systems that move such as self-driving cars, and other vehicles including lightweight unmanned aerial vehicles (UAVs).
 
-- - safety case construction
+  - safety case construction
   - risk analysis
   - design process
   - verification and validation
@@ -102,12 +102,12 @@
 
 - API probing
 
-- - PrivacyRaven: runs different privacy attacks against ML models; the tool only runs black-box label-only attacks
+  - PrivacyRaven: runs different privacy attacks against ML models; the tool only runs black-box label-only attacks
   - Counterfeit: runs different adversarial ML attacks against ML models 
 
 - Model backdoors
 
-- - Fickling: a decompiler, static analyzer, and bytecode rewriter for Python pickle files; injects backdoors into ML model files 
+  - Fickling: a decompiler, static analyzer, and bytecode rewriter for Python pickle files; injects backdoors into ML model files 
 
 - [API Rate Limiting](https://platform.openai.com/docs/guides/rate-limits/overview)
 
@@ -119,7 +119,7 @@
 
 - Licensing:
 
-- - [From RAIL to Open RAIL: Topologies of RAIL Licenses](https://www.licenses.ai/blog/2022/8/18/naming-convention-of-responsible-ai-licenses)
+  - [From RAIL to Open RAIL: Topologies of RAIL Licenses](https://www.licenses.ai/blog/2022/8/18/naming-convention-of-responsible-ai-licenses)
   - [Hugging Face - OpenRAIL ](https://huggingface.co/blog/open_rail)
   - [Hugging Face - AI Release Models](https://arxiv.org/abs/2302.04844)
 
@@ -127,13 +127,13 @@
 
 - AI Companies
 
-- - OpenAI
+  - OpenAI
 
   - Google DeepMind
 
   - [EleutherAI](https://www.eleuther.ai/) - non-profit research collective that grew from open-sourcing LLMs to pressure OpenAI 
 
-  - - Sub-organizations/spin-offs: [CarperAI](https://carper.ai/); [LAION](https://laion.ai/), [OpenBioML](https://openbioml.org/), [Conjecture](https://www.conjecture.dev/), [MedARC](https://www.medarc.ai/)
+  - Sub-organizations/spin-offs: [CarperAI](https://carper.ai/); [LAION](https://laion.ai/), [OpenBioML](https://openbioml.org/), [Conjecture](https://www.conjecture.dev/), [MedARC](https://www.medarc.ai/)
 
   - [Stability AI](https://stability.ai/) - Worked with RunawayML to release StableDiffusion; funds a lot of research that results in open-source ML models 
 
@@ -149,7 +149,7 @@
 
 - AI Tooling:
 
-- - [Modular](https://www.modular.com/) - Chris Lattner’s (LLVM) developer platform company
+  - [Modular](https://www.modular.com/) - Chris Lattner’s (LLVM) developer platform company
   - [Ray](https://www.anyscale.com/ray-open-source)
   - [TensorFlow](https://www.tensorflow.org/)
   - [PyTorch](https://pytorch.org/)
@@ -157,11 +157,9 @@
 
 - [Explosion.ai](https://explosion.ai/) - developer tools including spaCy, prodigy, and thinc 
 
-  - ![](/Users/taylordelorenzo/Desktop/MLSecurity.png)
-
 - Auditing Companies
 
-- - [Protect AI](https://techcrunch.com/2022/12/15/protect-ai-lands-a-13-5m-investment-to-harden-ai-projects-from-attack/amp/?guccounter=1) - Security for ML pipeline
+  - [Protect AI](https://techcrunch.com/2022/12/15/protect-ai-lands-a-13-5m-investment-to-harden-ai-projects-from-attack/amp/?guccounter=1) - Security for ML pipeline
   - [Eticas](https://www.eticasconsulting.com/algorithmic-audits/) - Bias
   - [Parity AI/Vera](https://www.askvera.io/) - Data, Ethics, Bias
   - [Responsible AI Institute](https://www.responsible.ai/) - Conformity Assessment Schemes
@@ -173,7 +171,7 @@
 
 - Other Organizations Involved in MLSec
 
-- - AI Red Teams: Microsoft; NVIDIA; BoschGlobal; Adversa_AI; Amazon
+  - AI Red Teams: Microsoft; NVIDIA; BoschGlobal; Adversa_AI; Amazon
   - [HiddenLayer](https://hiddenlayer.com/) - MLDR platform and consulting 
   - [IQT labs](https://www.iqt.org/iqt-labs-releases-audit-report-of-roberta-an-open-source-large-language-model/)
   - [Protect AI](https://protectai.com/) 
@@ -200,11 +198,3 @@
 | Google Photos Gorillas                                       | Algorithmic bias | Reputational |
 | [Uber hits a pedestrian](https://incidentdatabase.ai/cite/4/) | Model failure    |              |
 | [Facebook mistranslation leads to arrest](https://incidentdatabase.ai/cite/72/) | Algorithmic bias |              |
-
-
-
-- 
-
-- 
-
-- 
