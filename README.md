@@ -1,8 +1,6 @@
 # Awesome-ML-Security
 # Relevant Work, Standards, Literature
 
-[TOC]
-
 ## Security issues
 
 - CIA and privacy of the model: *membership attacks, model inversion attacks, model extraction, adversarial perturbation, prompt injections*
